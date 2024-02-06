@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padrelogo {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Logoindex {
+    width: 700px;
+    display: flex;
+
+}
+
+.formularioindex {
+    position: relative;
+    top: 290px;
+    width: 500px;
+}
+
+.iniciarsesion {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 162, 253);
+    width: 200px;
+}
+
+.iniciarsesion:hover {
+    background: rgb(180, 58, 149);
+    background: linear-gradient(90deg, rgba(180, 58, 149, 1) 11%, rgba(29, 161, 253, 1) 37%, rgba(252, 176, 69, 1) 78%);
+    color: white;
+}
+
+.OlviCont {
+    margin-left: 20px;
+}
+
+.registrarse {
+    color: white;
+    margin-top: 20px;
+    width: 400px;
+    background-color: rgb(231, 3, 155);
+}
+
+.registrarse:hover {
+    background: rgb(180, 58, 149);
+    background: linear-gradient(90deg, rgba(180, 58, 149, 1) 11%, rgba(29, 161, 253, 1) 37%, rgba(252, 176, 69, 1) 78%);
+    color: white;
+}
+
+.slogan {
+    font-size: xx-large;
+    width: 600px;
+    color: grey;
+    text-align: center;
+    position: absolute;
+    top: 520px;
+    left: 320px;
+}
+
+@media (max-width: 768px) {
+
+    .Logoindex,
+    .formularioindex {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .iniciarsesion,
+    .registrarse {
+        width: 100%;
+    }
+
+    .slogan {
+        font-size: large;
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        top: 320px;
+    }
+}
